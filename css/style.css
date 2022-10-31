@@ -1,0 +1,90 @@
+/* Globalnije classi */
+:root {
+    --primary-text-color:rgba(0, 0, 0, 0.8);
+    --title-text-color: rgba(0, 0, 0, 1);
+    --accent-color: rgba(24, 160, 251, 1);
+    --primary-white-color: rgba(245, 245, 245, 1)
+}
+/* background: rgba(0, 0, 0, 1);  Cvet osnovnoj */
+/* background: rgba(0, 0, 0, 0.8); Vtorichnij cvet */
+/* background: rgba(255, 255, 255, 1); Belij cvet */
+/* background: rgba(24, 160, 251, 1); Akcent */
+/* background: rgba(245, 245, 245, 1); Vtorichnij cvet fona */
+
+
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    
+}
+
+.list{
+    list-style: none;
+}
+/* Globalnije classi */
+
+.logo {
+    color:var(--title-text-color) ;
+}
+
+.logo:hover{
+color: var(--accent-color);
+}
+
+/* site nav */
+.site-nav .link {
+color: var(--accent-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color: var(--title-text-color);
+}
+
+.site-nav .link.current {
+        color: var(--title-text-color);
+}
+/* HERO */
+.hero-title {
+    color: var(--title-text-color);
+}
+
+
+/* Section */
+.section-title{
+    color: var(--title-text-color);
+}
+
+
+/* Features */
+.features-list .title {
+    color: var(--title-text-color);
+}
+
+
+/* Examples */
+.work-list .title{
+color: var(--title-text-color);
+}
+
+
+/* Button */
+.button{
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.button.primary {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--accent-color);
+    background-color: var(--primary-white-color);
+}
