@@ -16,6 +16,10 @@
 body {
     background-color: var(--primary-white-color);
     color: var(--primary-text-color);
+    letter-spacing: -1.5%;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 1.67;
 }
 
 a {
@@ -29,8 +33,13 @@ a {
 }
 /* Globalnije classi */
 
+
+/* LOGO */
 .logo {
     color:var(--title-text-color) ;
+font-family: Comfortaa, cursive;
+    font-size: 28px;
+    line-height: 1.14;
 }
 
 .logo:hover{
@@ -40,6 +49,9 @@ color: var(--accent-color);
 /* site nav */
 .site-nav .link {
 color: var(--accent-color);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
 }
 .site-nav .link:hover,
 .site-nav .link:focus{
@@ -49,34 +61,53 @@ color: var(--accent-color);
 .site-nav .link.current {
         color: var(--title-text-color);
 }
+
+
 /* HERO */
 .hero-title {
     color: var(--title-text-color);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 1.43;
+    text-align: center; 
+
 }
 
 
 /* Section */
 .section-title{
     color: var(--title-text-color);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.5;
+    text-align: center;
 }
 
+.section-description {
+font-size: 36px;
+    line-height: 1.39;
+}
 
-/* Features */
-.features-list .title {
+/* Features Examples */
+.features-list .title,
+.work-list .title  {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
 }
 
-
-/* Examples */
-.work-list .title{
-color: var(--title-text-color);
-}
 
 
 /* Button */
 .button{
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 1.2;
 }
 
 .button.primary {
